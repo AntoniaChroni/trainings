@@ -41,6 +41,7 @@ The course is intended for wet lab biologists or bioinformaticians that are inte
 
 * `./resources`: supplemental materials and learning resources 
 * `./lectures`: [sc-rna-seq-snap-workshop-2025-10-29](https://github.com/stjude-dnb-binfcore/trainings/tree/main/courses/sc-rna-seq-snap-workshop/lectures). _Currently under construction—stay tuned for updates!_ 🚧
+* St. Jude employees can access a recording from the workshop [here](https://sjcrh.sharepoint.com/:v:/r/sites/Team-DNB_BINF_Core/Shared%20Documents/Learning/Training_Recordings/snap-hands-on-workshop-2025-10-29.mp4?csf=1&web=1&e=btsaMU)
 
  
 ## Below is the main directory structure listing the analyses and data files used in this repository

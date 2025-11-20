@@ -1,6 +1,10 @@
 
 # scRNA-seq Snap seq pipeline: Hands-on workshop
 
+## Resources to Explore the Snap Pipeline Further
+* [Tutorial and Documentation for Snap Pipeline](https://github.com/stjude-dnb-binfcore/trainings/blob/main/courses/sc-rna-seq-snap-repo/tutorial/snap-tutorial-docs/Documentation-snap-repo-tutorial-2025-04-18.pdf)
+
+* [Introduction to sc/snRNA-seq](https://github.com/stjude-dnb-binfcore/trainings/blob/main/courses/sc-RNA-Seq/lectures/Intro-to-sc-snRNA-seq-2024-09-18.pdf)
 
 ## Automation and Reproducibility
 
@@ -11,7 +15,7 @@
 
 ## Containers for Cancer Informatics
 * [Docker for beginners](https://docker-curriculum.com/)
-* [Docker for Data Scientists](https://towardsdatascience.com/docker-for-data-scientists-5732501f0ba4)
+
 
 
 ### Questions?
