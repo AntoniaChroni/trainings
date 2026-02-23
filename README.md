@@ -26,6 +26,7 @@ cd $(dirname "${BASH_SOURCE[0]}")/Trainings/courses/<course_of_interest>
 |  ├── Bulk-RNA-Seq
 |  ├── ChIP-Seq
 |  ├── data-organization
+|  ├── github-team-guide
 |  ├── sc-epigenie-repo
 |  ├── sc-RNA-Seq
 |  ├── sc-rna-seq-pitfalls
