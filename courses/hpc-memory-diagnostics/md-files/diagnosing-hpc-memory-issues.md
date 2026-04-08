@@ -170,7 +170,7 @@ When selecting between configurations such as:
 keep in mind:
 
 - Runtime is often driven more by **available memory** than by core count.
-- Using more cores with less memory can be acceptable for safety, but queue selection must match the **total memory requested** to ensure proper scheduling. For exmaple, if you require more than 1 TB of memory, use the `large_mem` queue to ensure proper resource allocation. For more information, see [Introduction to the HPCF cluster](https://wiki.stjude.org/display/HPCF/Introduction+to+the+HPCF+cluster).
+- Using more cores with less memory can be acceptable for safety, but queue selection must match the **total memory requested** to ensure proper scheduling. For example, if you require more than 1 TB of memory, use the `large_mem` queue to ensure proper resource allocation. For more information, see [Introduction to the HPCF cluster](https://wiki.stjude.org/display/HPCF/Introduction+to+the+HPCF+cluster).
 - However, increasing the number of cores is not always beneficial. Many steps in single‑cell pipelines are memory‑bound rather than CPU‑bound, meaning performance is limited by how fast large objects can be allocated, copied, and accessed in memory—not by how many cores are available. In addition, parallel frameworks such as future often create multiple independent R processes, each with its own memory footprint. Increasing the core count therefore increases the number of worker processes and replicates large objects across processes, which can significantly raise peak memory usage without providing meaningful runtime improvements. In these cases, requesting more cores can actually increase the likelihood of memory pressure, filesystem stress, and job failure, rather than speeding up execution.
 
 
