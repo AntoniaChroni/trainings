@@ -30,11 +30,8 @@ This section outlines **best practices for reporting bugs** so issues are reprod
 ├── README.md
 └── resources
 |  ├── code-review-checklist.html
-|  ├── code-review-checklist.pdf
 |  ├── code-review-communication-guidelines.html
-|  ├── code-review-communication-guidelines.pdf
-|  ├── how-to-report-bugs-github.html
-|_ └── how-to-report-bugs-github.pdf
+|_ └── how-to-report-bugs-github.html
 ```
 
 
