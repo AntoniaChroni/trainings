@@ -6,6 +6,28 @@ Use this checklist to guide your review. Reviewers at all levels are **not expec
 
 ---
 
+
+## Environment & Branch Sanity Check (Before Review)
+
+Before reviewing code or leaving comments, confirm you are looking at the **correct branch and code version**.
+
+- [ ] Am I reviewing the **intended feature branch** (not `main` or an outdated branch)?
+- [ ] Have I **pulled the latest changes** from the remote branch?
+- [ ] Does the PR compare the **correct base branch** (e.g. `main` → feature branch)?
+- [ ] If testing code locally, am I running code from the **same branch as the PR**?
+
+
+📌 **Why this matters:**  
+Reviewing or testing code from the wrong branch can lead to:
+- confusion about whether an issue is already fixed,
+- incorrect assumptions about bugs or behavior,
+- unnecessary back‑and‑forth in PR discussions.
+
+Ensuring you are on the correct branch helps keep reviews accurate, efficient, and fair to the author.
+
+---
+
+
 ## 1. Understand the PR
 
 Before diving into the code, ensure the intent is clear.
