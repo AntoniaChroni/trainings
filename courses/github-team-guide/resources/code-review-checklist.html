@@ -362,6 +362,28 @@ clarity, correctness, maintainability, and shared understanding.</p>
 questions are just as valuable as running code.</p>
 </blockquote>
 <hr />
+<div id="environment-branch-sanity-check-before-review" class="section level2">
+<h2>Environment &amp; Branch Sanity Check (Before Review)</h2>
+<p>Before reviewing code or leaving comments, confirm you are looking at
+the <strong>correct branch and code version</strong>.</p>
+<ul class="task-list">
+<li><input type="checkbox"></input>Am I reviewing the <strong>intended feature
+branch</strong> (not <code>main</code> or an outdated branch)?</li>
+<li><input type="checkbox"></input>Have I <strong>pulled the latest
+changes</strong> from the remote branch?</li>
+<li><input type="checkbox"></input>Does the PR compare the <strong>correct
+base branch</strong> (e.g. <code>main</code> → feature branch)?</li>
+<li><input type="checkbox"></input>If testing code locally, am I running code
+from the <strong>same branch as the PR</strong>?</li>
+</ul>
+<p>📌 <strong>Why this matters:</strong><br />
+Reviewing or testing code from the wrong branch can lead to: - confusion
+about whether an issue is already fixed, - incorrect assumptions about
+bugs or behavior, - unnecessary back‑and‑forth in PR discussions.</p>
+<p>Ensuring you are on the correct branch helps keep reviews accurate,
+efficient, and fair to the author.</p>
+<hr />
+</div>
 <div id="understand-the-pr" class="section level2">
 <h2>1. Understand the PR</h2>
 <p>Before diving into the code, ensure the intent is clear.</p>
